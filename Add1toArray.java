@@ -7,7 +7,7 @@ public class Add1toArray {
 		int i = a.length;
 		//int j =b.length;
 		//HashMap<String, Integer> hash = new HashMap<String, Integer>();
-		
+		//Adding 1 to array
 		ArrayList<Integer> result = new ArrayList<Integer>();
 		
 		while(i>0){
