@@ -1,0 +1,15 @@
+List list = new LinkedList();
+    for (int i = 0; i < 50; i++) {
+    list.add(String.valueOf(i));
+}
+
+int end = list.size() - 1;
+int start = 0;
+while (start > end) {
+    start++;
+    end--;
+}
+if(start == end) //The arrays length is an odd number and you found the middle
+    return start;
+else //The arrays length is an even number and there really isn't a middle
+    //Do something else here because you have an even number 
